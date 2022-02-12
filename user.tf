@@ -5,7 +5,7 @@ variable compartment_id {
 }
 
 resource "oci_identity_user" "kube_user" {
-    compartment_id = var.compartment_id
+    
     description = "Usuário descartável apenas para testar Terraform" 
     name = "kube_user" 
 
